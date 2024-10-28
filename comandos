@@ -1,0 +1,12 @@
+Projeto já começado
+
+cd "caminho do projeto"
+npm run dev
+
+
+Projeto novo
+cd "caminho do projeto"
+npm create vite@latest
+informar nome do projeto
+SISTEMA INFORMA COMO DEVEMOS FAZER react/javaScript
+SISTEMA INFORMA COMO DEVEMOS FAZER cd ""nome do projeto"/npm install/ npm run dev
