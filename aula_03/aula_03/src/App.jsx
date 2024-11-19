@@ -1,33 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Item from './item.jsx';
+import Lista from './lista.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const lista = ['nike', 'adidas', 'oasis', 'mizuno'];
+  const [listaUpdate, updateLista] = useState();
+
+  const adicionar = () => {
+    lista.push('teste2');
+  }
 
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <button>Inicio</button>
+        <button>Carregar lista</button>
+        <button onClick={adicionar}>Adicionar</button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <Lista lista={lista} />
+
+    {/**
+      <Item nome={lista[0]} />
+      <Item nome={lista[1]} />
+      <Item nome={lista[2]} /> */}
+
     </>
   )
 }

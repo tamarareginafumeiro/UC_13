@@ -10,3 +10,22 @@ npm create vite@latest
 informar nome do projeto
 SISTEMA INFORMA COMO DEVEMOS FAZER react/javaScript
 SISTEMA INFORMA COMO DEVEMOS FAZER cd ""nome do projeto"/npm install/ npm run dev
+
+
+--------
+ANOTAÇÃO DO PROFESSOR
+Comandos do NPM
+Entrar na pasta
+cd "caminho/da/pasta" 
+ 
+Criar um projeto
+npm create vite
+  "aula_04" 
+Inicializar o projeto
+cd nome-da-pasta 
+
+npm install
+
+npm run dev
+
+ 
