@@ -13,7 +13,7 @@ function Onboard () {
     })
 
     function closeOnBoard () {
-        window.location.href = '/home'
+       window.location.href = '/home'
     }
     
     function changeSlide () {
